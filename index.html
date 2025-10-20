@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Marcel</title>
-  <!-- Lier le CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- NAVBAR -->
+  <!-- NAVBAR FIXE -->
   <header>
     <nav>
       <ul>
         <li><a href="#hero">Accueil</a></li>
         <li><a href="#projects">Projets</a></li>
+        <li><a href="#about">À propos</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -22,18 +22,27 @@
 
   <!-- HERO -->
   <section id="hero">
+    <div class="overlay"></div>
     <h1>Salut, je suis <span class="highlight">Marcel</span></h1>
     <p>Développeur web & passionné de tech</p>
   </section>
 
   <!-- PROJETS -->
   <section id="projects">
+    <div class="band"></div>
     <h2>Mes projets</h2>
     <div class="projects-container">
       <div class="project-card">Projet 1</div>
       <div class="project-card">Projet 2</div>
       <div class="project-card">Projet 3</div>
     </div>
+    <div class="band"></div>
+  </section>
+
+  <!-- À PROPOS -->
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <p>Je suis passionné par le développement web, la tech et le design. J’aime créer des interfaces modernes et adaptatives.</p>
   </section>
 
   <!-- CONTACT -->
@@ -42,7 +51,6 @@
     <p>Email : marcel@example.com</p>
   </section>
 
-  <!-- Lier le JS -->
   <script src="script.js"></script>
 </body>
 </html>
